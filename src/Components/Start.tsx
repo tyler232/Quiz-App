@@ -1,19 +1,18 @@
-import { useState } from 'react'
 import '../Style/Start.css'
-
-interface Proc {
-    StartHandler(): => void;
+interface Props{
+  StartHandler: () => void;
 }
 
-function Start(Proc: Interact) {
+function Start({StartHandler} : Props) {
 
   return (
     <div>
-        <div id="App-title">
-            MATH ARITHMETIC QUIZ
-        </div>
+        <h1 id="App-title"> MATH ARITHMETIC QUIZ </h1>
+        <button id="start-button">
+          <span className="button-text">Click Here to Start</span>
+        </button>
     </div>
   )
 }
 
-export default App
+export default Start;
