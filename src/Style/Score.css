@@ -1,0 +1,161 @@
+/* Congratulations */
+#Score-title {
+    position: absolute;
+    width: 351px;
+    height: 47px;
+    left: 209px;
+    top: 67px;
+
+    font-family: 'Montserrat Subrayada';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+#Back-button {
+    position: absolute;
+    width: 91px;
+    height: 45px;
+    left: 31px;
+    top: 22px;
+
+    font-family: 'Mplus 1p Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+#YourScore-text {
+    /* YOUR SCORE: */
+
+    position: absolute;
+    width: 168px;
+    height: 45px;
+    left: 133px;
+    top: 125px;
+
+    font-family: 'Mplus 1p Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+#Score {
+    position: absolute;
+    width: 154px;
+    height: 89px;
+    left: 338px;
+    top: 107px;
+
+    font-family: 'Mplus 1p Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+
+    color: #D31010;
+}
+
+#BetterThan-text {
+    position: absolute;
+    width: 249px;
+    height: 30px;
+    left: 70px;
+    top: 198px;
+
+    font-family: 'Mplus 1p Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+#BetterThan-percent {
+    position: absolute;
+    width: 228px;
+    height: 89px;
+    left: 339px;
+    top: 176px;
+
+    font-family: 'Mplus 1p Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+
+    color: #D31010;
+}
+
+#Leaderboard-icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 234px;
+    top: 286px;
+
+    background: url(chart_bar_line.png);
+
+}
+
+#Leaderboard-test {
+    position: absolute;
+    width: 188px;
+    height: 45px;
+    left: 268px;
+    top: 276px;
+
+    font-family: 'Mplus 1p Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+#PlayAgain-button {
+    position: absolute;
+    width: 157px;
+    height: 45px;
+    left: 283px;
+    top: 355px;
+
+    font-family: 'Mplus 1p Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    /* identical to box height */
+
+    color: #000000;
+}
+
+#Exit-button {
+    position: absolute;
+    width: 62px;
+    height: 44px;
+    left: 627px;
+    top: 429px;
+
+    font-family: 'Mplus 1p Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #000000;
+}
