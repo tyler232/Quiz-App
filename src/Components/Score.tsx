@@ -1,7 +1,11 @@
 import { useState } from 'react';
 import '../Style/Score.css';
 
-const Score = () => {
+interface Props{
+  ScoreHandler: () => void;
+}
+
+function Score({ScoreHandler} : Props) {
     return (
       <div>
         <div className="Score-title">
