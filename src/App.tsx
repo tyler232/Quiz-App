@@ -1,20 +1,35 @@
 import React, { useState } from 'react';
 import Start from './Components/Start';
+import Score from './Components/Score';
+import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('Start');
+  const usePageNavigation = () => {
+    const navigate = useNavigate();
+    return (pageName: string) => navigate(`/${pageName.toLowerCase()}`);
+  }
+  const setPage = usePageNavigation();
 
   const toStartPage = () => {
-    setCurrentPage('Start');
+    setPage('');
+  }
+
+  const toScorePage = () => {
+    setPage('score');
   }
 
   return (
     <div>
-      {currentPage === 'Start' ? <Start 
-                                      StartHandler={toStartPage} 
-                                    /> : null}
-    </div>
+      <Routes>
+        <Route path="/" element={<Start 
+                                  StartHandler={toStartPage} 
+                                  />} />
+        <Route path="/score" element={<Score 
+                                  ScoreHandler={toScorePage} 
+                                  />} />
 
+      </Routes>
+    </div>
   );
 }
 
